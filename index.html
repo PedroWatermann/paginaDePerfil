@@ -22,8 +22,8 @@
 
 <body>
   <header>
-      <nav class="links">
-          <a href="#">Início</a>
+      <nav>
+          <a href="/index.html">Início</a>
           <a href="#footer">Contato</a>
       </nav>
   </header>
@@ -43,28 +43,38 @@
       <div class="calendar">
           <p class="title">Sequência</p>
           
-          <p class="week">D</p>
-          <p class="week">S</p>
-          <p class="week">T</p>
-          <p class="week">Q</p>
-          <p class="week">Q</p>
-          <p class="week">S</p>
-          <p class="week">S</p>
+          <div class="week-container">
+              <p class="week">D</p>
+              <p class="week">S</p>
+              <p class="week">T</p>
+              <p class="week">Q</p>
+              <p class="week">Q</p>
+              <p class="week">S</p>
+              <p class="week">S</p>
+          </div>
           
-          <p id="curr" class="sequence">Sequência atual: </p>
-          <p id="best" class="sequence">Melhor sequência: </p>
+          <div class="sequence-container">
+              <p id="curr" class="sequence">Sequência atual: </p>
+              <p id="best" class="sequence">Melhor sequência: </p>
+          </div>
       </div>
   </main>
   
   <footer id="footer">
-      <img src="" alt="GitHub" class="imgContact">
-      <figcaption class="contact">GitHub</figcaption>
+      <figure>
+          <a href="https://github.com/"><img src="https://static.vecteezy.com/system/resources/previews/016/833/872/original/github-logo-git-hub-icon-on-white-background-free-vector.jpg" alt="GitHub" class="imgContact"></a>
+          <figcaption class="contact">GitHub</figcaption>
+      </figure>
       
-      <img src="" alt="Linkedin" class="imgContact">
-      <figcaption class="contact">Linkedin</figcaption>
+      <figure>
+          <a href="https://www.linkedin.com/"><img src="https://th.bing.com/th/id/OIP.bhVPgAcuDxNBBew1WZ10pgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="Linkedin" class="imgContact"></a>
+          <figcaption class="contact">Linkedin</figcaption>
+      </figure>
 
-      <img src="" alt="Instagram" class="imgContact">
-      <figcaption class="contact">Instagram</figcaption>
+      <figure>
+          <a href="https://www.instagram.com/"><img src="https://th.bing.com/th/id/OIP.QH3rKRYQPcM3xxmjubYmaAHaHW?w=201&h=200&c=7&r=0&o=5&pid=1.7" alt="Instagram" class="imgContact"></a>
+          <figcaption class="contact">Instagram</figcaption>
+      </figure>
   </footer>
   
   <script src="main.js"></script>
